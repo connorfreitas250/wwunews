@@ -1,0 +1,2 @@
+# wwunews
+Listen to the most recent stories coming out of Western Washington University's Western Today. This skill delivers a brief description from the 10 most recent news stories published on https://westerntoday.wwu.edu/news. This is achieved by scrapping the website for specific articles and stories to display to the listener. The skill uses the alexa-sdk along with request and cheerio to provide up to date, accurate, and robust results to the listener.  We hope that you enjoy!
