@@ -1,0 +1,3 @@
+npm install --save cheerio
+npm install --save request
+npm install --save alexa-sdk
