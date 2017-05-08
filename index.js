@@ -40,12 +40,7 @@ function scrape(caller) {
   	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-2 > .views-field-title > .field-content').text(),
   	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-3 > .views-field-title > .field-content').text(),
   	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-4 > .views-field-title > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-5 > .views-field-title > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-6 > .views-field-title > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-7 > .views-field-title > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-8 > .views-field-title > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-9 > .views-field-title > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-10 > .views-field-title > .field-content').text()
+  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-5 > .views-field-title > .field-content').text()
   	    ];  	   
   	    
   	    contents = [ 
@@ -53,12 +48,7 @@ function scrape(caller) {
   	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-2 > .views-field-body > .field-content').text(),
   	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-3 > .views-field-body > .field-content').text(),
   	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-4 > .views-field-body > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-5 > .views-field-body > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-6 > .views-field-body > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-7 > .views-field-body > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-8 > .views-field-body > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-9 > .views-field-body > .field-content').text(),
-  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-10 > .views-field-body > .field-content').text()
+  	    $('.view-display-id-panel_pane_2').find('.view-content > .views-row-5 > .views-field-body > .field-content').text()
   	    ];  
   	    numberOfStories = Math.min(titles.length, contents.length);	    	      	      
   	    caller.emit('Stories');
